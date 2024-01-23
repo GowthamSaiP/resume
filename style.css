@@ -1,0 +1,125 @@
+body {
+    display: flex; flex-direction: column;
+    margin: 0%; padding: 0;
+}
+header {
+    display: flex; justify-content: center;
+    background-color: #be3144; flex: content;
+}
+header h1 {
+    display: flex; color: #f0f0f0; padding: 0%; margin: 20px; font-size: 42px; font-weight: 900;
+}
+.details {
+    display: flex; background-color: #000; background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    padding-left: 50px; padding-right: 50px; padding-top: 20px; padding-bottom: 20px; justify-content: space-between;
+    gap: 20px;
+}
+.profile {
+    display: flex; flex-grow: 0; flex-shrink: 1; flex-basis: 0%;
+    width: 150px; height: 150px;  
+    border-radius: 12px;
+}
+.text {
+    display: flex; flex-direction: column;  
+}
+.text h2 {
+    align-self: flex-start; color: white; font-size: 38px; cursor: crosshair;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text h2:hover {
+    color: yellow;
+}
+.figtxt {
+    display: flex; column-gap: 18px;
+}
+.fig {
+    display: flex; flex-direction: column; row-gap: 5px;
+}
+.txt {
+    display: flex; flex-direction: column;  
+}
+.txt p {
+    margin: 0%; padding: 0%; padding-top: 4px; padding-bottom: 4px; font-size: 19px; color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fig img{
+    width: 25px; 
+}
+a:hover {
+    color: rgb(158, 63, 63);
+}
+.it {
+    font-style: italic;
+}
+a {
+    text-decoration: none; color: white;
+}
+.intro {
+    display: flex; flex-direction: column; background-color: #000; background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    padding-left: 50px; padding-right: 50px; padding-top: 20px; padding-bottom: 20px;
+}
+.intro h2 {
+    margin: 0%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 29px; color: #f0f0f0; font-weight: bold;
+}
+.intro p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 19px; margin-bottom: 0;
+    color: white;
+}
+.nav {
+    display: flex; flex-direction: column; background-color: #45567d;
+    padding-left: 50px; padding-right: 50px; padding-top: 20px; padding-bottom: 20px;
+}
+.nav details {
+    display: flex; color: #f0f0f0; font-size: 29px; font-weight: bolder;
+}
+summary:hover {
+    color: yellowgreen;
+}
+summary {
+    cursor: pointer;
+}
+.one table th{
+    font-size: 24px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.one table td {
+    font-size: 19px; color: darkgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.two ul li {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav .three h2 {
+    font-size: 24px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(238, 167, 163);
+}
+.three p {
+    font-size: 19px; font-weight: 100; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.four ul li {
+    font-size: 19px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.feedback {
+    display: flex; flex-direction: column; background-color: #303841;
+    padding-left: 50px; padding-right: 50px; padding-top: 20px; padding-bottom: 20px; justify-content: space-between;
+}
+.feedback h3 {
+    margin: 0%; margin-bottom: 10px; color: #f0f0f0; font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+legend{
+    margin: 0%; margin-bottom: 10px; color: rgb(226, 226, 50); font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label {
+    margin: 0%; margin-bottom: 10px; color: #f0f0f0; font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+footer {
+    margin: 0%; text-align: center; padding: 10px;
+    font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

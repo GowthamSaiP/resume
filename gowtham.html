@@ -1,8 +1,136 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
+        <meta charset="UTF-8">
+		<meta name="description" content="My first resume webpage">
+        <meta name="author" content="Gowtham Sai">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./images/resume.svg">
+        <link rel="stylesheet" href="./style.css">
 		<title>My resume</title>
 	</head>
 	<body>
-		<h1>RESUME</h1>
+		<header>
+            <h1>RESUME</h1>
+        </header>
+        <main>
+            <section class="details">
+                <section class="text">
+                    <h2>Gowtham Sai</h2>
+                    <section class="figtxt">
+				        <section class="fig">
+                            <img src="./images/mail.svg" alt="mail icon">
+                            <img src="./images/phone.svg" alt="phone icon">
+                            <img src="./images/github.svg" alt="github icon">
+                            <img src="./images/loc.svg" alt="location icon">
+                        </section>
+                        <section class="txt">
+                            <p><a href="https://mail.google.com/mail/u/random/#compose" target="_blank">random@gmail.com</a></p>
+                            <p>0123456789</p>
+                            <p><a href="https://github.com/GowthamSaiP" target="_blank">GowthamSaiP</a></p>
+                            <p class="it">Random Street, Random town, Random District, Andhra Pradesh, India.</p>
+                        </section>
+                    </section>
+                </section>
+                <img class="profile" src="./images/ironman.jpg" alt="Profile Picture">
+            </section>
+            <article class="intro">
+                <h2>Introduction</h2>
+			    <p>A dedicated and detail-oriented individual looking for an entry-level fullstack developer position at a well-reputed organization to gain experience and exposure and expand my knowledge.</p>
+            </article>
+            <section class="nav">
+                <details class="one">
+                    <summary>Education.</summary>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Qualification</th>
+                                <th>Board/University</th>
+                                <th>Name of the Institution</th>
+                                <th>Year Of Passing</th>
+                                <th>Percentage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Bachelors Degree</th>
+                                <td>Acharya Nagarjuna University</td>
+                                <td>Random College</td>
+                                <td>2022</td>
+                                <td>70</td>
+                            </tr>
+                            <tr>
+                                <th>Intermediate (MPC)</th>
+                                <td>Board of Intermediate Education, Andhra Pradesh</td>
+                                <td>Random College</td>
+                                <td>2019</td>
+                                <td>89</td>
+                            </tr>
+                            <tr>
+                                <th>SSC</th>
+                                <td>Board of Secondary Education, Andhra Pradesh</td>
+                                <td>Random College</td>
+                                <td>2017</td>
+                                <td>97</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </details>
+                <details class="two">
+                    <summary>Skills.</summary>
+                        <ul>
+                            <li>MS Office</li>
+                            <li>Basic C</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Soft skills : Excellent interpersonal skills, Compassionate and analytical, Problem Solving</li>
+                        </ul>
+                </details>
+                <details class="three">
+                    <summary>Projects.</summary>
+                    <h2>Odin-Recipes Website.</h2>
+                    <p><a href="https://gowthamsaip.github.io/odin-recipes/" target="_blank" rel="noreferrer noopener"><strong>This basic recipe website</strong></a>, built during the Odin Project's HTML and CSS foundations, initially displayed text-based recipes but was later enhanced with Foundation CSS for visual appeal, solidifying my basic understanding of web development concepts and preparing me for further exploration.</p> 
+                    <h2>Landing Page</h2>
+                    <p><a href="https://gowthamsaip.github.io/odin-landingpage/" target="_blank" rel="noreferrer noopener"><strong>This landing page</strong></a> marks my transition from static, text-based projects to dynamic layouts using flexbox. Inspired by the Odin Project's curriculum, I built it from scratch, applying my newfound understanding of this powerful CSS tool to create a visually engaging and flexible layout. This project solidifies my grasp of foundational web development principles and sets the stage for further exploration of advanced CSS techniques.
+                    <h2>This Resume Webpage</h2>
+                    <p>Under Raghu Anna's guidance in the SVGIE Javascript Fullstack Course, I proudly present my first project: a resume webpage built from scratch using HTML and CSS! Inspired by iCubeCode tutorials, I crafted this clean and professional platform to showcase my skills. This initial step on my full-stack development journey lays a solid foundation and fuels my excitement to tackle advanced design, interactivity, and the vast potential that lies ahead.</p>
+                </details>
+                <details class="four">
+                    <summary>Hobbies.</summary>
+                    <ul>
+                        <li>Playing chess.</li>
+                        <li>Playing and watching cricket.</li>
+                        <li>Surfing through web to learn new things.</li>
+                    </ul>
+                </details>
+            </section>
+            <section class="feedback">
+                <h3>I value your feedback. Do you have any suggestions for my resume?</h3>
+                <form name="form">
+                    <fieldset required>
+                        <legend>What's your First impression of this resume?</legend>
+                        <label><input type="radio" name="firstimp">Professional and polished.</label>
+                        <label><input type="radio" name="firstimp">A bit cluttered and overwhelming.</label>
+                        <label><input type="radio" name="firstimp">Hard to follow or understand.</label>
+                    </fieldset>
+                    <br>
+                    <fieldset required>
+                        <legend>How well did the resume highlight relevant keywords for a fresher fullstack developer position?</legend>
+                        <label><input type="radio" name="keyword">Good.</label>
+                        <label><input type="radio" name="keyword">Fair.</label>
+                        <label><input type="radio" name="keyword">Poor.</label>
+                    </fieldset>
+                    <br>
+                    <label>Is there anything else I could add or improve to make my resume more impactful?</label>
+                    <br>
+                    <input type="text" placeholder="Enter text">
+                    <br>
+                    <br>
+                    <input type="submit">
+                </form>
+            </section>
+        </main>
+        <hr>
+        <footer>My Resume@2024</footer>
 	</body>
 </html>

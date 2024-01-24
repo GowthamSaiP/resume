@@ -41,7 +41,7 @@
             <section class="nav">
                 <details class="one">
                     <summary>Education.</summary>
-                    <table>
+                    <table class="education">
                         <thead>
                             <tr>
                                 <th>Qualification</th>
@@ -66,7 +66,7 @@
                                 <td>2019</td>
                                 <td>89</td>
                             </tr>
-                            <tr>
+                            <tr class="last">
                                 <th>SSC</th>
                                 <td>Board of Secondary Education, Andhra Pradesh</td>
                                 <td>Random College</td>
@@ -107,30 +107,26 @@
             <section class="feedback">
                 <h3>I value your feedback. Do you have any suggestions for my resume?</h3>
                 <form name="form">
-                    <fieldset required>
+                    <fieldset>
                         <legend>What's your First impression of this resume?</legend>
                         <label><input type="radio" name="firstimp">Professional and polished.</label>
                         <label><input type="radio" name="firstimp">A bit cluttered and overwhelming.</label>
                         <label><input type="radio" name="firstimp">Hard to follow or understand.</label>
                     </fieldset>
-                    <br>
-                    <fieldset required>
+                    <fieldset>
                         <legend>How well did the resume highlight relevant keywords for a fresher fullstack developer position?</legend>
                         <label><input type="radio" name="keyword">Good.</label>
                         <label><input type="radio" name="keyword">Fair.</label>
                         <label><input type="radio" name="keyword">Poor.</label>
                     </fieldset>
-                    <br>
-                    <label>Is there anything else I could add or improve to make my resume more impactful?</label>
-                    <br>
-                    <input type="text" placeholder="Enter text">
-                    <br>
-                    <br>
-                    <input type="submit">
+                    <section class="txtfeedback">
+                        <p>Is there anything else I could add or improve to make my resume more impactful?</p>
+                        <input type="text" placeholder="Enter text">
+                        <input type="submit" disabled="disabled">
+                    </section>
                 </form>
             </section>
         </main>
-        <hr>
         <footer>My Resume@2024</footer>
 	</body>
 </html>
